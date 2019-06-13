@@ -47,6 +47,11 @@ source ~/.bashrc
 # Install git
 sudo apt install git
 
+# Install GeographicLib
+wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+sudo chmod +x install_geographiclib_datasets.sh
+./install_geographiclib_datasets.sh
+
 # End of script
 echo ""
 echo "Done installation"
